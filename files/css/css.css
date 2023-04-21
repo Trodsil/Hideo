@@ -1,0 +1,25 @@
+*{
+    padding-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+/*Inicio header*/
+header{
+    background-color: black;
+}
+
+header .logo img{
+    height: 10%;
+    width: 10%;
+}
+
+header .sections ul{
+    list-style: none;
+}
+
+header .sections ul li a{
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/*End header*/
