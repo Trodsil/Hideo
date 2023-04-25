@@ -26,8 +26,6 @@ header{
     position: fixed;
 }
 
-
-
 header .logo{
     display: flex;
 }
@@ -45,7 +43,6 @@ header .sections ul{
 header .sections ul li{
     padding: 0 50px;
 }
-
 
 
 header .sections ul li a{
