@@ -1,25 +1,58 @@
-*{
-    padding-top: 5px;
+
+@font-face {
+    font-family: GeomGraphicSemiBold;
+    src: url(../font/GeomGraphicSemiBold/font.woff2);
+ }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
 }
+
 /*Inicio header*/
 header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.541);
+    display: flex;
+    width: 100%;
+    color: aliceblue;
+    align-items: center;
+    padding: 5px 20%;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    position: fixed;
+}
+
+
+
+header .logo{
+    display: flex;
 }
 
 header .logo img{
-    height: 10%;
-    width: 10%;
+    height: 70px;
+    width: 286px;
 }
 
 header .sections ul{
     list-style: none;
+    display: flex;
 }
+
+header .sections ul li{
+    padding: 0 50px;
+}
+
+
 
 header .sections ul li a{
     text-decoration: none;
-    vertical-align: middle;
+    color:white;
+    font-family: "GeomGraphicSemiBold";
+    font-size: 12px;
 }
 
 /*End header*/
