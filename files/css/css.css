@@ -15,8 +15,7 @@
 
 hr{
   width: 80%;
-  margin: auto;
-
+  margin: 1% auto;
 }
 
 body{
@@ -150,12 +149,19 @@ header .sections ul li :hover{
 
 /*sections_*/
   .sections_a{
-    background:-moz-linear-gradient(11deg,black calc(275 - 65)
-    ,white calc(275 - 65));
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    background-image: url('');
+  }
+
+  .sections_a img{
+    width: 500px;
   }
 
   .sections_a div{
-    padding: 1% 10%;
+  
+
   }
 
 
@@ -232,3 +238,40 @@ footer .dep li{
 }
 
 /*footer end*/
+
+/*project*/
+.hideo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 2%;
+}
+.cuote p{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.story{
+  margin: 2%;
+  background: fixed;
+  background-image: url('../img/logo.png')
+}
+
+.story h5{
+  font-size: 20px;
+  text-align: center;
+}
+
+.story p{
+  width: 80%;
+  padding-left: 20%;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+br{
+  margin: 1%;
+}
+/*project end*/
