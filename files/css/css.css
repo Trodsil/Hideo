@@ -239,7 +239,7 @@ footer .dep li{
 
 /*footer end*/
 
-/*project*/
+/*about me*/
 .hideo img{
   display: block;
   margin-left: auto;
@@ -274,4 +274,18 @@ footer .dep li{
 br{
   margin: 1%;
 }
-/*project end*/
+
+.background .video{
+  width: 100%;
+  padding: 1% 0;
+  overflow:hidden;
+  background: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*about me end*/
+
+/*projects*/
+
+/*projects end*/
