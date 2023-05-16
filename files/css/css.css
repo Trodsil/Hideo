@@ -33,7 +33,9 @@ header{
     backdrop-filter: blur(10px);
     overflow: hidden;
     position: fixed;
+    z-index: 2;
 }
+
 
 header .logo{
     display: flex;
@@ -69,6 +71,7 @@ header .sections ul li :hover{
 .slideshow-container {
     max-width: 80%;
     margin: auto;
+    z-index: 1;
   }
 
   .slideshow-container .slider_text{
